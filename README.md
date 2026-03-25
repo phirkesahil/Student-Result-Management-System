@@ -1,62 +1,37 @@
-#  Student Result Management System
+# Student Result Management System
 
-The main objective of the project is to provide the examination result to the student in a simple way.
-This project is useful for students and institutions for getting the results in simple manner.
+A web-based application for managing and viewing student academic results,
+built using HTML, CSS, JavaScript, PHP, and MySQL.
 
-## Demo 
-Link: https://novel-cures.000webhostapp.com/  <br/>
-Website is under construction. <br/>
-- Admin Login: admin | Password: 123 <br/>
-- For Students: First Year | Roll No: 1011<br/>
-- For Students: Second Year | Roll No: 2021<br/>
+## About This Project
+This system has two separate portals — one for students to view their
+semester-wise marks and one for teachers/admin to manage result entries.
 
+## Features
+- Student login to view semester-wise marks and grade reports
+- Admin/teacher panel to add, update, and delete result entries
+- Role-based access — students and teachers see different modules
+- Frontend form validations using JavaScript
+- Server-side logic handled with PHP
+- All data stored and retrieved from MySQL database
 
-## Technology Used
+## What I Tested
+- Manual testing of all user flows — login, result entry, edit, delete, report generation
+- Verified role-based access works correctly for both student and teacher roles
+- Tested UI consistency, form validations, and navigation across all pages
 
-- Front end: HTML, CSS, JavaScript <br/>
-- Back end: PHP, MySQL  <br/>
-- Server: XAMPP Server
+## Tools & Technologies
+- HTML, CSS
+- JavaScript
+- PHP
+- MySQL
 
-## Admin Features
+## How to Run
+1. Clone the repository
+2. Install XAMPP or any local server
+3. Place the project folder in the `htdocs` directory
+4. Import the SQL file into phpMyAdmin
+5. Open browser and go to `http://localhost/project-folder-name`
 
-- Admin Dashboard <br/>
-- Admin can add/update/ Class <br/>
-- Admin can add/update/ Subjects  <br/>
-- Admin can add/update/ Active/Inactive Subject combination with class  <br/>
-- Admin can register new student and also edit info of the student  <br/>
-- Aadmin can declare/ edit  result of a student  <br/>
-- Admin can change own password.
-
-## Student Features
-
-- Student can search their result using valid rollid <br/>
-- Student can download the result in the PDF format.
-
-## Screenshot
-
-### Homepage 
-<img src="https://github.com/Govind155/Student-Result-Management-System/blob/master/images/screenshot01.PNG">
-
-### Login 
-<img src="https://github.com/Govind155/Student-Result-Management-System/blob/master/images/screenshot02.PNG">
-
-### Dashboard | Manage Student  
-<img src="https://github.com/Govind155/Student-Result-Management-System/blob/master/images/screenshot03.PNG">
-
-### Dashboard | Enter Marks 
-<img src="https://github.com/Govind155/Student-Result-Management-System/blob/master/images/screenshot04.PNG">
-
-### Student Marks 
-<img src="https://github.com/Govind155/Student-Result-Management-System/blob/master/images/screenshot05.PNG">
-
- 
-
- 
-
- 
-
- 
-
-
- 
-
+## Author
+Sahil Avinash Phirke
